@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="8dp"
-        android:background="@android:color/transparent"
-        android:text=""
+        android:background="@android:color/transparent"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
