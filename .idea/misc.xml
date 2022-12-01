@@ -3,7 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Khutbaz/app/src/main/res/drawable/ic_right.xml" value="0.132" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Khutbaz/app/src/main/res/drawable/icon_background.xml" value="0.132" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Khutbaz/app/src/main/res/drawable/icon_outer_background.xml" value="0.132" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Khutbaz/app/src/main/res/drawable/view_pager_background.xml" value="0.132" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Khutbaz/app/src/main/res/layout/activity_main.xml" value="0.15677083333333333" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Khutbaz/app/src/main/res/layout/activity_onboarding.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Khutbaz/app/src/main/res/layout/onboarding_item_container.xml" value="0.117578125" />
       </map>
     </option>
   </component>
