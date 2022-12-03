@@ -6,6 +6,7 @@ import android.view.ViewGroup.LayoutParams.WRAP_CONTENT
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
@@ -26,6 +27,20 @@ class MainActivity : AppCompatActivity() {
         setOnboardingItems()
         setupIndicators()
         setCurrentIndicator(0)
+
+        val isFirstRun = getSharedPreferences("PREFERENCE", MODE_PRIVATE)
+            .getBoolean("isFirstRun", true)
+
+        if (isFirstRun) {
+            //show start activity
+            startActivity(Intent(this@MainActivity, HomeActivity::class.java))
+            Toast.makeText(this@MainActivity, "First Run", Toast.LENGTH_LONG)
+                .show()
+        }
+
+
+        getSharedPreferences("PREFERENCE", MODE_PRIVATE).edit()
+            .putBoolean("isFirstRun", false).commit()
     }
 
 
