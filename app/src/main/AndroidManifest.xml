@@ -14,6 +14,9 @@
         android:theme="@style/Theme.Khutbaz"
         tools:targetApi="31">
         <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
             android:name=".OnboardingActivity"
             android:exported="false" />
         <activity
